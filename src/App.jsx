@@ -1,9 +1,9 @@
-
-function App() 
-{
+import Navbar from "./components/Navbar/Navbar"
+import './App.css'
+function App() {
   return (
     <div>
-      <p>Lets Do it</p>
+      <Navbar/>
     </div>
   )
 }

@@ -1,0 +1,25 @@
+.container>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container>nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container>nav>ul>li{
+    list-style: none;
+}
+.container>nav>ul>li:hover{
+    cursor: pointer;
+    color: #4759EE;
+}
+.container>nav>h1{
+    color: #4759EE;
+    font-size: 25px;
+    font-weight: bold;
+}
