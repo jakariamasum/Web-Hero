@@ -59,4 +59,20 @@
 .right{
     background-color: #1C294D;
     padding: 30px;
+    text-align: left;
+    border-radius: 12px;
+}
+.right>h1{
+    color: white;
+    font-size: 45px;
+}
+.right>p{
+    color: #FFFFFFAB;
+    font-size: 25px;
+}
+.topics{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
 }
