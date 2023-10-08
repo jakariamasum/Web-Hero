@@ -1,0 +1,25 @@
+.container{
+    font-size: 40px;
+    background-color: #192335;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+.container>h1>span{
+    background:  linear-gradient(90deg, #4459ED, #9F63E9);
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+    color: #192335;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+.btns{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    color: white;
+    padding-bottom: 25px;
+}
+.btns>:first-child{
+    background-color: linear-gradient(90deg, #4459ED, #9F63E9);
+}
