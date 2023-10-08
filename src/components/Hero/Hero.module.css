@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin:40px 0;
+}
+.box>span{
+    background-color: #DAE0FD;
+    color: #2F57F0;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.text>span{
+    background:  linear-gradient(90deg, #4459ED, #9F63E9);
+    font-size: 80px;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+    color: #192335;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+.subText{
+    color:#6b7385;
+    box-sizing: border-box;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 24%;
+}
+.btn{
+    background:  linear-gradient(90deg, #4459ED, #9F63E9);
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding: 45px;
+    background-color: #E1E6FD;
+    align-items: center;
+    color: #2F57EF;
+}
+.stats>:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+.stats>div>div, .stats>:last-child{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #2F57EF;
+}
+
+.stats>:nth-child(2){
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    font-size: 30px;
+    gap: 0.5rem;
+    display: flex;
+}
+.stats>:nth-child(2)>:last-child{
+    font-size: 20px;
+    color: #9BAEF8;    
+}
