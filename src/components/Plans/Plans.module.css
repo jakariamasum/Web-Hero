@@ -1,0 +1,79 @@
+.container>h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.container>p{
+    padding: 0 20%;
+    font-size: 20px;
+    color: #6b7385;
+}
+.container{
+    margin-top: 130px;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    padding: 25px;
+    gap: 2rem;
+}
+.plans>:first-child{
+    flex: 1;
+}
+.plans>:last-child{
+    flex: 1;
+}
+.leftPlans>:nth-child(2){
+    color: #6b7385;
+    font-size: 20px;
+}
+.leftPlans>h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.leftPlans>:nth-child(3)>span{
+    font-size: 35px;
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+.btns>button{
+    padding: 15px 80px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btns>:first-child{
+    background-image: linear-gradient(to right, #465AEE,#AE65E8);
+    color: white;
+}
+.btns>:last-child{
+    border: 1px solid gray;
+}
+.btns>:last-child:hover{
+    background-color: blue;
+    color: white;
+}
+.review{
+    margin-top: 25px;
+}
+.review>p{
+    color: #6b7385;
+    font-size: 18px;
+}
+.rightPlans{
+    text-align: left;
+}
+.rightPlans>h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.leftPlans{
+    background: #F2F5F9;
+    padding: 0 15px;
+}
