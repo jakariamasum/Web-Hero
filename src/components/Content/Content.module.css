@@ -1,0 +1,29 @@
+.container>p {
+    color: #6b7385;
+}
+
+.container>div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.container{
+    margin-top: 120px;
+}
+
+.container>div>:first-child>img {
+    width: 650px;
+}
+
+.accordianWrapper {
+    flex: 1;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.accordian {
+    height: 570px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}

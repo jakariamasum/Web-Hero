@@ -6,6 +6,7 @@ import Development from "./components/Development/Development"
 import Acheivement from "./components/Acheivement/Acheivement"
 import Guildeline from "./components/Guideline/Guildeline"
 import Plans from "./components/Plans/Plans"
+import Content from "./components/Content/Content"
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <Guildeline/>
       <Development/>
       <Acheivement/>
+      <Content/>
       <Plans/>
     </div>
   )
