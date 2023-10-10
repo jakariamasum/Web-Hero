@@ -7,6 +7,7 @@ import Acheivement from "./components/Acheivement/Acheivement"
 import Guildeline from "./components/Guideline/Guildeline"
 import Plans from "./components/Plans/Plans"
 import Content from "./components/Content/Content"
+import Review from "./components/Review/Review"
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
       <Acheivement/>
       <Content/>
       <Plans/>
+      <Review/>
     </div>
   )
 }

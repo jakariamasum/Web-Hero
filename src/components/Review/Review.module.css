@@ -1,0 +1,14 @@
+.container{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    gap: 15px;
+}
