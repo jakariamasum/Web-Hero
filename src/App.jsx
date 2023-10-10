@@ -8,6 +8,7 @@ import Guildeline from "./components/Guideline/Guildeline"
 import Plans from "./components/Plans/Plans"
 import Content from "./components/Content/Content"
 import Review from "./components/Review/Review"
+import Connect from "./components/Connect/Connect"
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
       <Content/>
       <Plans/>
       <Review/>
+      <Connect/>
     </div>
   )
 }

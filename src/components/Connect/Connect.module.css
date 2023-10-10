@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 120px;
+}
+
+h1{
+    margin-top: 120px;
+    font-size: 50px;
+}
+
+.container>input {
+    height: 40px;
+    border-radius: 12px;
+    width: 300px;
+    border: 2px solid #4759EE;
+}
+
+.container>input::placeholder {
+    padding: 2px;
+    color: #4759EE;
+    text-transform: capitalize;
+}
