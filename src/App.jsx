@@ -9,6 +9,7 @@ import Plans from "./components/Plans/Plans"
 import Content from "./components/Content/Content"
 import Review from "./components/Review/Review"
 import Connect from "./components/Connect/Connect"
+import Educator from "./components/Educator/Educator"
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
       <Plans/>
       <Review/>
       <Connect/>
+      <Educator/>
     </div>
   )
 }
