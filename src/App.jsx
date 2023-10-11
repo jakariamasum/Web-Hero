@@ -10,6 +10,7 @@ import Content from "./components/Content/Content"
 import Review from "./components/Review/Review"
 import Connect from "./components/Connect/Connect"
 import Educator from "./components/Educator/Educator"
+import Footer from "./components/Footer/Footer"
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
       <Review/>
       <Connect/>
       <Educator/>
+      <Footer/>
     </div>
   )
 }
