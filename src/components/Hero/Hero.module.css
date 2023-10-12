@@ -44,6 +44,7 @@
     background-color: #E1E6FD;
     align-items: center;
     color: #2F57EF;
+    flex-wrap: wrap;
 }
 .stats>:nth-child(1){
     display: flex;
@@ -69,4 +70,22 @@
 .stats>:nth-child(2)>:last-child{
     font-size: 20px;
     color: #9BAEF8;    
+}
+@media screen and (max-width:740px) {
+    .stats{
+        gap: 2rem;
+    }
+    .stats>:nth-child(2){
+        margin: 0 auto;
+    }
+    .subText{
+        font-size: 20px;
+        padding: 0;
+    }
+    .text>span{
+        font-size: 35px;
+    }
+    .box>span{
+        font-size: 15px;
+    }
 }

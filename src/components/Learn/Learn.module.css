@@ -45,6 +45,7 @@
     .container{
         flex-direction: column;
         text-align: center;
+        gap: 0;
     }
     .materials{
         gap: 0;
@@ -52,4 +53,8 @@
     .right>:last-child{
         margin: 0 auto;
     }
+    .container>:first-child>img{
+        width: 100%;
+    }
+    
 }
