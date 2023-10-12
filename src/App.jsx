@@ -21,8 +21,8 @@ function App() {
       <Development/>
       <Acheivement/>
       <Content/>
-      <Plans/>
       <Review/>
+      <Plans/>
       <Connect/>
       <Educator/>
       <Footer/>

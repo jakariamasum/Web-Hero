@@ -12,3 +12,13 @@ h1{
     display: flex;
     gap: 15px;
 }
+@media screen and (max-width:780px) {
+    .container>h1{
+        font-size: xx-large;
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    
+}
