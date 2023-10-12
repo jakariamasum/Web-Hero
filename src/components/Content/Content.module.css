@@ -27,3 +27,15 @@
     border: 1px solid #ddd;
     padding: 10px;
 }
+@media screen and (max-width:740px) {
+    .container>div{
+        flex-direction: column;
+    }
+    .container>div>:first-child>img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .accordianWrapper{
+        padding: 0;
+    }
+}
