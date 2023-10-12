@@ -47,7 +47,7 @@
     .container{
         flex-direction: column;
         width: 100%;
-        padding: 10px;
+        padding-bottom: 20px;
         border-radius: 8px;
     }
     .container>div>img{

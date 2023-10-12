@@ -25,3 +25,31 @@
     font-weight: bold;
     margin-top: 0;
 }
+@media screen and (max-width:740px) {
+    .container>nav{
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav>ul{
+        flex-direction: column;
+        color: white;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    nav>:nth-child(2){
+        position: fixed;
+        z-index: 99;
+        right: 2rem;
+        top: 2rem;
+        /* margin-top: 20rem; */
+    }    
+    .navmenu{
+        flex-direction: column;
+        background-color: black;
+        padding: 2rem;
+    }
+    .container>nav>h1{
+        font-size: 35px;
+    }
+    
+}
