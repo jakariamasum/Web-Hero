@@ -34,11 +34,11 @@ const Acheivement = () => {
                 <p>Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September year Undergraduate.
                 </p>
                 <div className={styles.topics}>
-                    <Topics text={'Ecommerce Website'}/>
-                    <Topics text={'Travel Agency'}/>
-                    <Topics text={'Shopping Cart'}/>
-                    <Topics text={'News Portal'}/>
-                    <Topics text={'Education Management'}/>
+                    <Topics text={'Ecommerce Website'} />
+                    <Topics text={'Travel Agency'} />
+                    <Topics text={'Shopping Cart'} />
+                    <Topics text={'News Portal'} />
+                    <Topics text={'Education Management'} />
                 </div>
                 {/* <Carosal/> */}
                 <img src={project1} alt="" />
