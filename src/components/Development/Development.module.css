@@ -32,6 +32,7 @@
     justify-content: space-between;
     color: white;
     text-transform: capitalize;
+    flex-wrap: wrap;
 }
 .stats>div>img{
     width: 4rem;
@@ -52,4 +53,44 @@
 .stats>div>div>:first-child{
     font-weight: bold;
     font-size: 25px;
+}
+@media screen and (max-width:740px) {
+    .container{
+        flex-direction: column;
+    }
+    .right>:nth-child(1)
+    {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .right>:nth-child(2){
+        /* font-size: 20px; */
+        text-align: center;
+        width: 100%;
+        
+    }
+    .right{
+        text-align: center;
+    }
+    .container{
+        align-items: normal;
+    }
+    .stats>div>img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .stats>div{
+        font-size: 16px;
+    }
+    .stats{
+        gap: 25px;
+    }
+    .stats>div>div>:first-child{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .container>:first-child>img{
+        width: 100%;
+    }
 }
