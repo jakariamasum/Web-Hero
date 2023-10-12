@@ -77,3 +77,8 @@
     background: #F2F5F9;
     padding: 0 15px;
 }
+@media screen and (max-width:740px) {
+    .plans{
+        flex-direction: column;
+    }
+}
